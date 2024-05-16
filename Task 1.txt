@@ -1,0 +1,152 @@
+CREATE TABLE covid_data
+(
+	"Province" VARCHAR,
+	"Country/Region" VARCHAR,
+	"Latitude"	DECIMAL(11, 8),
+	"Longitude"	DECIMAL(11, 8),
+	"Date"	DATE,
+	"Confirmed" INT,
+	"Deaths" INT,
+	"Recovered" INT
+);
+
+INSERT INTO covid_data (Province, Country, Latitude, Longitude, Date, Confirmed, Deaths, Recovered)
+VALUES
+
+('Province1', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province2', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province3', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province4', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province5', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province6', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province7', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province8', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520),
+('Province9', 'India', 20.5937, 78.9629, '2024-05-06', 1400, 68, 680),
+('Province10', 'India', 20.5937, 78.9629, '2024-05-06', 1250, 62, 620),
+('Province11', 'India', 20.5937, 78.9629, '2024-05-06', 1150, 57, 570),
+('Province12', 'India', 20.5937, 78.9629, '2024-05-06', 900, 48, 480),
+('Province13', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province14', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province15', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province16', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province17', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province18', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province19', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province20', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520);
+('Province21', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province22', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province23', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province24', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province25', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province26', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province27', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province28', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520),
+('Province29', 'India', 20.5937, 78.9629, '2024-05-06', 1400, 68, 680),
+('Province30', 'India', 20.5937, 78.9629, '2024-05-06', 1250, 62, 620),
+('Province31', 'India', 20.5937, 78.9629, '2024-05-06', 1150, 57, 570),
+('Province32', 'India', 20.5937, 78.9629, '2024-05-06', 900, 48, 480),
+('Province33', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province34', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province35', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province36', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province37', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province38', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province39', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province40', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520);
+('Province41', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province42', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province43', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province44', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province45', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province46', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province47', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province48', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520),
+('Province49', 'India', 20.5937, 78.9629, '2024-05-06', 1400, 68, 680),
+('Province50', 'India', 20.5937, 78.9629, '2024-05-06', 1250, 62, 620),
+('Province51', 'India', 20.5937, 78.9629, '2024-05-06', 1150, 57, 570),
+('Province52', 'India', 20.5937, 78.9629, '2024-05-06', 900, 48, 480),
+('Province53', 'India', 20.5937, 78.9629, '2024-05-06', 1000, 50, 500),
+('Province54', 'India', 20.5937, 78.9629, '2024-05-06', 1200, 60, 600),
+('Province55', 'India', 20.5937, 78.9629, '2024-05-06', 1500, 70, 700),
+('Province56', 'India', 20.5937, 78.9629, '2024-05-06', 800, 40, 400),
+('Province57', 'India', 20.5937, 78.9629, '2024-05-06', 1100, 55, 550),
+('Province58', 'India', 20.5937, 78.9629, '2024-05-06', 1300, 65, 650),
+('Province59', 'India', 20.5937, 78.9629, '2024-05-06', 950, 45, 450),
+('Province60', 'India', 20.5937, 78.9629, '2024-05-06', 1050, 52, 520);
+
+
+
+SELECT SUM(Confirmed) AS total_confirmed_cases
+FROM covid_data;
+
+SELECT SUM(Deaths) AS total_deaths
+FROM covid_data;
+
+SELECT SUM(Recoveries) AS total_recoveries
+FROM covid_data;
+
+SELECT AVG(Confirmed) AS avg_confirmed_cases_per_day
+FROM covid_data;
+
+SELECT MAX(confirmed_cases) AS max_confirmed_cases_in_a_day
+FROM covid_data;
+
+SELECT country, MAX(Confirmed) AS max_confirmed_cases
+FROM covid_data
+GROUP BY Country
+ORDER BY max_confirmed_cases DESC
+LIMIT 1;
+
+SELECT Country, MAX(deaths) AS max_deaths
+FROM covid_data
+GROUP BY Country
+ORDER BY max_deaths DESC
+LIMIT 1;
+
+SELECT country, MAX(Recoveries) AS max_recoveries
+FROM covid_data
+GROUP BY Country
+ORDER BY max_recoveries DESC
+LIMIT 1;
+
+SELECT date, MAX(Confirmed) AS max_confirmed_cases
+FROM covid_data
+GROUP BY date
+ORDER BY max_confirmed_cases DESC
+LIMIT 1;
+
+SELECT date, MAX(Deaths) AS max_deaths
+FROM covid_data
+GROUP BY Date
+ORDER BY max_deaths DESC
+LIMIT 1;
+
+SELECT date, MAX(recoveries) AS max_recoveries
+FROM covid_data
+GROUP BY Date
+ORDER BY max_recoveries DESC
+LIMIT 1;
+
+SELECT Country, AVG(confirmed_cases) AS avg_confirmed_cases_per_country
+FROM covid_data
+GROUP BY Country;
+
+SELECT Country, AVG(Deaths) AS avg_deaths_per_country
+FROM covid_data
+GROUP BY Country;
+
+SELECT Country, AVG(Recoveries) AS avg_recoveries_per_country
+FROM covid_data
+GROUP BY Country;
+
+SELECT Country, (SUM(Deaths) / SUM(Confirmed)) * 100 AS mortality_rate
+FROM covid_data
+GROUP BY Country
+ORDER BY mortality_rate DESC
+LIMIT 10;
+
+SELECT Country, (SUM(Recoveries) / SUM(Confirmed)) * 100 AS recovery_rate
+FROM covid_data
+GROUP BY Country
+ORDER BY recovery_rate DESC
+LIMIT 10;
